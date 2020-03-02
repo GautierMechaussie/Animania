@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creer Tarif</title>
+	<link rel="stylesheet" type="text/css" href="../../../../style.css"/>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="./listeRegleFidelisation.html">Retour</a></li>
+		</ul>
+	</header>
+	<h2 style="text-align: center;">Créer une Regle de fidélisation</h2>
+	<form style="margin-left: 35%">
+		<br>
+		<br>
+		<label>Nom de la règle :</label>
+		<input type="text" name="">
+		<br>
+		<br>
+		<label>Choisir la cible de la regle :</label>
+		<select style="margin-bottom: 20px;">
+ 			 <option>11-15 ans</option>
+			 <option>15-25 ans</option>
+			 <option>+25 ans</option>
+			 <option>ajouter donnée ...</option>
+		</select>
+		<br>
+		<label>Réduction :</label>
+		<input type="number" name=""> % pour <input type="number" name=""> visites
+		<br>
+		<br>
+		<label>L'offre sera effective du : </label>
+		<input type="date" name="" style="margin-bottom: 20px;">
+		<label>au :</label>
+		<input type="date" name="">
+
+		<br>
+		<br>
+		<input type="button" name="valider" onclick="document.location.href='./listeRegleFidelisation.html'" value="Valider" style="margin-left: 350px">
+
+	</form>
+</body>
+</html>

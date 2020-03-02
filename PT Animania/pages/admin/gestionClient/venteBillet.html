@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vendre des billets</title>
+	<link rel="stylesheet" type="text/css" href="../../../style.css"/> 
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="../home.html">Retour a l'index Administration</a></li>
+			<li><a href="./fidelisation/listeRegleFidelisation.html">Gestion fidelisation</a></li>
+			<li><a href="./OffrePromotionnelle/listeOffrePromotionnel.html">Gestion offres Promotionnels</a></li>
+			<li><a href="./OffresCommerciales/listeOffreCommerciale.html">Gestion offres Commerciales</a></li>
+			<li><a href="./tarifs/listeTarif.html">Gestion Tarifs</a></li>
+		</ul>
+	</header>
+	<form style="margin-left: 20%">
+		<br>
+		<input type="radio" name="choix" id="jour" value="jour">
+		<label for="jour">Journée</label>
+		<br>
+		<input type="radio" name="choix" id="sejour" value="sejour">
+		<label for="sejour">Séjours</label>
+		<input type="date" name="datedebut">
+		<input type="date" name="datefin">
+		
+		<br>
+		<br>
+		<label for="nbr">Nombre de personnes de plus de 11 ans :</label>
+		<input type="number" name="nbr" id="nbr" placeholder="3">
+		<br>
+		<p>Prix : 75,00€<p>
+		<br>
+		<input type="button" name="valider" onclick="document.location.href='./creationClient.html'" value="Valider">
+
+	</form>
+</body>
+</html>

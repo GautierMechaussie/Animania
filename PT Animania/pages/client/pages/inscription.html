@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription</title>
+	<link rel="stylesheet" type="text/css" href="../../../style.css"/>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="../home.html">Retour</a></li>
+		</ul>
+	</header>
+	<form style="margin-left: 40%">
+		<br>
+		<br>
+		<input type="radio" name="sexe" id="femme" value="Femme" required>
+		<label for="femme">Femme</label>
+		<input type="radio" name="sexe" id="homme" value="Homme" style="margin-bottom: 20px">
+		<label for="homme">Homme</label>
+		<br>
+		<input type="text" name="nom" id="nom" placeholder="Nom" required>
+		<input type="text" name="prenom" id="prenom" placeholder="Prenom" required style="margin-bottom: 20px">
+		<br>
+		<input type="email" name="emailOuTelephone" id="email" placeholder="Email" required style="margin-bottom: 20px">
+		<input type="tel" name="emailOuTelephone" id="tel" placeholder="Telephone">
+		<br>
+		<input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required style="margin-bottom: 20px">
+		<br>
+		<input type="password" name="mdp" id="mdp" placeholder="Confirmer le Mot de passe" required style="margin-bottom: 20px">
+		<br>
+		<input type="checkbox" name="CGU" id="CGU" required style="margin-bottom: 20px">
+		<label for="CGU">J'ai pris connaissance des conditions d'utilisations</label>
+		<br>
+		<input type="button" name="valider" onclick="document.location.href='validationInscription.html'" value="Valider">
+
+	</form>
+</body>
+</html>

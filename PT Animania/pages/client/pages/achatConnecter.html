@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acheter des billets</title>
+	<link rel="stylesheet" type="text/css" href="../../../style.css"/>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="../home.html">Se déconnecter</a></li>
+			<li><a href="../../../index.html">Retour à l'index du site</a></li>
+		</ul>
+	</header>
+	<form style="margin-left: 20%">
+		<br>
+		<br>
+		
+		<input type="radio" name="choix" id="pass" value="pass">
+		<label for="pass">Pass annuel</label>
+		<br>
+		<input type="radio" name="choix" id="jour" value="jour">
+		<label for="jour">Journée</label>
+		<input type="date" name="datejour">
+		<br>
+		<input type="radio" name="choix" id="sejour" value="sejour">
+		<label for="sejour">Séjours</label>
+		<input type="date" name="datedebut">
+		<input type="date" name="datefin">
+		
+		<br>
+		<br>
+		<label for="nbr">Nombre de personnes de plus de 11 ans :</label>
+		<input type="number" name="nbr" id="nbr" placeholder="3">
+		<br>
+		<p>Prix : 75,00€<p>
+		<br>
+		<input type="button" name="valider" onclick="document.location.href='./paiement.html'" value="Valider">
+
+	</form>
+</body>
+</html>

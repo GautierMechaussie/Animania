@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creer Tarif</title>
+	<link rel="stylesheet" type="text/css" href="../../../../style.css"/>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="./listeOffreCommerciale.html">Retour</a></li>
+		</ul>
+	</header>
+	<h2 style="text-align: center;">Créer une Offre Commerciale</h2>
+	<form style="margin-left: 35%">
+		<br>
+		<br>
+		<label>Choisir sur quelle donnée client l'offre va s'effectuer :</label>
+		<select style="margin-bottom: 20px;">
+ 			 <option>Date de naissance</option>
+			 <option>5eme visite</option>
+			 <option>10eme visite</option>
+			 <option>ajouter donnée ...</option>
+		</select>
+		<br>
+		<label>L'offre sera effective du : </label>
+		<input type="date" name="" style="margin-bottom: 20px;">
+		<label>au :</label>
+		<input type="date" name="">
+		<br>
+		<label>Type d'offre :</label>
+		<select style="margin-bottom: 20px;">
+ 			 <option>1 entrée gratuite au parc</option>
+			 <option>35% de réduction</option>
+			 <option>20% de réduction</option>
+			 <option>ajouter offre ...</option>
+		</select>
+		<br>
+		<input type="button" name="valider" onclick="document.location.href='./listeOffreCommerciale.html'" value="Valider">
+
+	</form>
+</body>
+</html>

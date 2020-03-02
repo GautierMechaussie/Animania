@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payer</title>
+	<link rel="stylesheet" type="text/css" href="../../../style.css"/> 
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="../home.html+">Retour</a></li>
+		</ul>
+	</header>
+	<h3 style="text-align: center; margin-top: 100px;">Paiement par carte bleue :</h3>
+	
+	<form style="margin-left: 40%">
+		<label >Nom :</label>
+		<input style="margin-bottom: 20px;" type="text">
+		<label>Prenom :</label>
+		<input type="text">
+		<br>
+		<label>Numero de la carte bleue :</label>
+		<input style="margin-bottom: 20px;" type="text" name="">
+		<br>
+		<label>Date d'expiration :</label>
+		<input style="margin-bottom: 40px;" type="date">
+		<label>Cryptogramme : _ _ _</label>
+		<br>
+		<input style="margin-bottom: 40px;margin-left: 300px;" type="button" value="Proceder au paiement" onclick="document.location.href='validationPaiement.html'">
+
+		<br>
+		<label>Autre moyen de paiement :</label>
+		<input type="button" value="paypal">
+		<input type="button" value="BTC">
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creer Tarif</title>
+	<link rel="stylesheet" type="text/css" href="../../../../style.css"/>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="./listeOffrePromotionnel.html">Retour</a></li>
+		</ul>
+	</header>
+	<h2 style="text-align: center;">Créer une Offre Promotionnel</h2>
+	<form style="margin-left: 35%">
+		<br>
+		<br>
+		<label>Choisir les jours affectés par la promotion</label>
+		<select style="margin-bottom: 20px;">
+ 			 <option>Tous les 23 du mois</option>
+			 <option>les mercredis</option>
+			 <option>les jeudis</option>
+			 <option>ajouter donnée ...</option>
+		</select>
+		<br>
+		<label>L'offre sera effective du : </label>
+		<input type="date" name="" style="margin-bottom: 20px;">
+		<label>au :</label>
+		<input type="date" name="">
+		<br>
+		<label>Promotion :</label>
+		<select style="margin-bottom: 20px;">
+ 			 <option>-20% de sur le prix du billet d'entrée au parc</option>
+			 <option>-10% de sur le prix du billet d'entrée au parc</option>
+			 <option>1 entrée gratuite pour 3 achetés</option>
+			 <option>ajouter offre ...</option>
+		</select>
+		<br>
+		<input type="button" name="valider" onclick="document.location.href='./listeOffrePromotionnel.html'" value="Valider">
+
+	</form>
+</body>
+</html>
